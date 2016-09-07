@@ -22,6 +22,10 @@ module.exports = {
   },
 
   create(req, res, next) {
+<<<<<<< HEAD
+    // const { name, bio, hobbies, image } = req.body;
+=======
+>>>>>>> e666b1f783a99145a351f34ea062d0fc69424f6d
     const name = req.body.name;
     const bio = req.body.bio;
     const hobbies = req.body.hobbies;
